@@ -80,8 +80,7 @@ body {
 	line-height: 1.5;
 }
 .title-image {
-	width: 100%;
-	margin: 0 0 0 30%;
+	width: 130%;
 }
 #features {
 	color: #000;
@@ -103,8 +102,9 @@ body {
 #testimonials {
 	text-align: center;
 	color: #fff;
-	background-image: url(testimonial-background.fb0937be.png);
+	background-color:var(--icon-color);
 }
+
 .carousel {
 	position: relative;
 }
@@ -201,6 +201,9 @@ body {
 	margin-bottom: 20px;
 }
 
+.test-flex{
+	margin-bottom: 85px;
+}
 p.secondary-color {
 	color:#a7a2a2;
 }
@@ -209,7 +212,9 @@ p.secondary-color {
 	font-weight: bold;
 }
 
-
+.partnerCompany{
+	margin-right: 20px;
+}
 
 .btn-signup-premium {
 	background-color: #343a40;
@@ -222,11 +227,14 @@ p.secondary-color {
 	border:1px solid gray;
 	background-color:white;
 }
+#cta{
+	margin-top: 30px;
+}
 .cta-elements {
 	width: 65%;
 	margin: auto;
 	padding: 4rem 0 0;
-	font-size: 45px;
+	font-size: 61px;
 	font-weight: 900;
 	line-height: 1.6;
 	text-align:center;

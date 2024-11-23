@@ -1,0 +1,249 @@
+:root {
+	--main-color: #ff4c68;
+	--icon-color: #ef8172;
+}
+
+body {
+	font-family: Montserrat;
+}
+#title, #cta {
+	background-color: var(--main-color);
+	color: #fff;
+}
+
+.features {
+	margin: 30px 0;
+	text-align: center;
+}
+
+.feature-icon {
+	color: var(--icon-color);
+	margin-bottom: 1.2rem;
+}
+
+.features p {
+	font-size: 16px;
+}
+
+
+.navbar-brand {
+	font-size: 40px;
+	font-weight: bold;
+	color: white;
+}
+
+	.navbar-nav .nav-link:hover {
+		color: #ffc107; /* Hover effect with golden color */
+	}
+
+.navbar-nav {
+	margin-left: auto; /* Align links to the right */
+}
+
+.nav-link {
+	font-family: Montserrat, sans-serif;
+	font-size: 1.3rem;
+	font-weight: 500;
+}
+.navbar-brand {
+	font-family: Ubuntu, sans-serif;
+	font-size: 2rem;
+	font-weight: 700;
+}
+.navbar {
+	padding: 0 0 4.5rem;
+}
+.nav-item {
+	padding: 0 18px;
+}
+.container-fluid {
+	padding-bottom:0;
+	padding-top:3%;
+	padding-left:15%;
+	padding-right:15%;
+}
+
+.nav-link {
+	font-family: Montserrat, sans-serif;
+	font-size: 1.3rem;
+	font-weight: 500;
+}
+
+.nav-link {
+	display: block;
+	padding: .5rem 1rem;
+}
+.col-lg-6 h1 {
+	font-family: Montserrat, sans-serif;
+	font-size: 3.5rem;
+	font-weight: 800;
+	line-height: 1.5;
+}
+.title-image {
+	width: 100%;
+	margin: 0 0 0 30%;
+}
+#features {
+	color: #000;
+	background-color: #fff;
+	padding: 4% 15%;
+}
+.feature-card {
+	text-align: center;
+	padding: 5%;
+}
+
+.feature-card h3 {
+	font-family: Montserrat, sans-serif;
+	font-weight: 700;
+}
+.feature-card p {
+	color: var(--grey-color);
+}
+#testimonials {
+	text-align: center;
+	color: #fff;
+	background-image: url(testimonial-background.fb0937be.png);
+}
+.carousel {
+	position: relative;
+}
+.carousel-indicators {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 15;
+	display: flex;
+	justify-content: center;
+	padding-left: 0;
+	margin-right: 15%;
+	margin-left: 15%;
+	list-style: none;
+}
+	.carousel-indicators li {
+		box-sizing: content-box;
+		flex: 0 1 auto;
+		width: 30px;
+		height: 3px;
+		margin-right: 3px;
+		margin-left: 3px;
+		text-indent: -999px;
+		cursor: pointer;
+		background-color: #fff;
+		background-clip: padding-box;
+		border-top: 10px solid transparent;
+		border-bottom: 10px solid transparent;
+		opacity: .5;
+		transition: opacity .6s ease;
+	}
+.carousel-inner {
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+}
+.carousel-item-next, .carousel-item-prev, .carousel-item.active {
+	display: block;
+}
+
+.carousel-item {
+	padding: 7% 15%;
+	position: relative;
+	float: left;
+	width: 100%;
+	margin-right: -100%;
+	transition: transform .6s ease-in-out, -webkit-transform .6s ease-in-out;
+	backface-visibility: hidden;
+}
+#testimonials h2 {
+	font-family: Montserrat, sans-serif;
+	font-size: 2rem;
+	font-weight: 700;
+	line-height: 1.5;
+}
+.testimonial-image {
+	width: 12%;
+	border-radius: 100%;
+	margin: 20px;
+}
+.pricing-title {
+	text-align: center;
+	margin-top: 30px;
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+.pricing-subtitle {
+	text-align: center;
+	color: gray;
+	margin-bottom: 40px;
+}
+
+.pricing-card {
+	border: 1px solid #e6e6e6;
+	border-radius: 10px;
+	padding-bottom: 20px;
+	text-align: center;
+	
+}
+
+	.pricing-card h3 {
+		margin-bottom: 0px;
+		border-bottom: 1px solid #e6e6e6;
+		background-color: #f7f7f7;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	
+.price {
+	font-size: 2.5rem;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+p.secondary-color {
+	color:#a7a2a2;
+}
+.btn-signup {
+	border-radius: 5px;
+	font-weight: bold;
+}
+
+
+
+.btn-signup-premium {
+	background-color: #343a40;
+	color: white;
+	border: none;
+}
+
+.btn-signup:hover {
+	color:black;
+	border:1px solid gray;
+	background-color:white;
+}
+.cta-elements {
+	width: 65%;
+	margin: auto;
+	padding: 4rem 0 0;
+	font-size: 45px;
+	font-weight: 900;
+	line-height: 1.6;
+	text-align:center;
+	margin-bottom:25px;
+}
+.cta-download {
+	text-align: center;
+	margin: 0 1.5% 10%;
+	padding-bottom: 4%;
+}
+#footer {
+	text-align: center;
+	background-color: #fff;
+}
+	#footer a {
+		color: #000;
+	}
+.social-icons {
+	margin: 0 1% 2%;
+}
